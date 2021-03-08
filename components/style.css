@@ -1,0 +1,190 @@
+.container-fluid {
+  background: rgb(219, 194, 88);
+  background: radial-gradient(
+    circle,
+    rgba(219, 194, 88, 0.9528186274509804) 0%,
+    rgba(145, 200, 237, 1) 86%
+  );
+
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 80vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h2 {
+  margin: 0 auto;
+  padding: 45px;
+}
+
+form {
+  width: 120vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+span input {
+  border: none;
+  border-radius: 3px;
+  height: 35px;
+  text-align: center;
+}
+
+.form-group input {
+  border: none;
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 125vh;
+}
+
+#search {
+  margin: 0 auto;
+}
+
+.add {
+  margin: 3px auto;
+  margin-bottom: 3vh;
+}
+
+.todo-button {
+  border-radius: 3px;
+  width: 6vh;
+  height: 5vh;
+  border: none;
+  background-color: white;
+}
+
+.todo-button:hover {
+  background-color: rgb(61, 114, 12);
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.todo-input {
+  width: 100%;
+  max-width: 125vh;
+  padding: 8px;
+}
+
+#search {
+  border: none;
+  width: 100%;
+  max-width: 125vh;
+}
+.select {
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+select {
+  text-align: center;
+  height: 37px;
+  width: 100%;
+  max-width: 25vh;
+
+  border: none;
+  border-radius: 5px;
+}
+
+.search input {
+  width: 100%;
+}
+
+.button-group {
+  margin: 0 auto;
+  display: flex;
+}
+.button-group a {
+  margin: 15px 5px;
+  padding: 10px;
+  display: flex;
+}
+
+.todo-list {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-list.hide {
+  display: none;
+}
+
+.todo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 129vh;
+  height: auto;
+  align-items: center;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+}
+
+
+.todo-item {
+  flex: 1;
+  border: none;
+  border-radius: 3px;
+  min-height: 48px;
+  width: 100%;
+  display:flex;
+  align-content: center;
+  padding: 15px;
+  font-weight: bold;
+  background-color: rgb(250, 240, 240);
+}
+
+.todoDiv {
+  margin: 0 auto;
+}
+
+.complete-btn,
+.delete-btn {
+  padding: 10px;
+  height: 50px;
+}
+
+.complete-btn {
+  background-color: rgb(57, 170, 12);
+  margin: 3px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.delete-btn {
+  background-color: rgb(202, 33, 4);
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+}
